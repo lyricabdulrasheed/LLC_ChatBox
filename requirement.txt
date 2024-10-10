@@ -4,18 +4,14 @@ import subprocess
 def generate_requirements():
     # List of libraries explicitly mentioned in the previous exercises
     libraries = [
-        "pandas", 
-        "numpy", 
-        "scikit-learn", 
-        "openpyxl", 
-        "pickle", 
-        "streamlit",
-        "matplotlib", 
-        "textblob",
-        "transformers",
-        "tensorflow",
+      streamlit
+        "numpy",
+        "pandas",
+        "scikit-learn",
         "nltk",
-        "torch"
+        "transformers",
+        "torch"  # Required by the transformers pipeline
+
     ]
 
     # Write the libraries to requirements.txt
