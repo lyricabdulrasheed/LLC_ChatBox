@@ -14,8 +14,9 @@ def generate_requirements():
         "textblob",
         "transformers",
         "tensorflow",
+        "nltk",
+        "torch"
     ]
-
 
     # Write the libraries to requirements.txt
     with open("requirements.txt", "w") as f:
